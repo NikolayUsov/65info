@@ -1,0 +1,42 @@
+.root {
+  display: flex;
+  border-radius: 24px 24px 0px 0px;
+  background: #e7edfc;
+  min-height: 72px;
+}
+.switcherItem {
+  display: flex;
+  padding: 12px 32px;
+  position: relative;
+  color: #58626B;
+  &.activeSwitchItem {
+    border-radius: 24px  24px 0px 0px;
+    color:  #25292D;
+    background:  #FFF;
+    &::before {
+       display: none
+      }
+  };
+
+  &:not(:last-of-type) {
+    &::before {
+      position: absolute;
+      content: "";
+      width: 1px;
+      height: 24px;
+      background-color: #d3d6d9;
+      right: 0;
+      top: 50%;
+      transform: translate(0px, -50%);
+    }
+  }
+}
+
+.switcherText {
+  font-family: Golos Text VF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 0;
+}

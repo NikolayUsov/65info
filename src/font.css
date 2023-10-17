@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Golos Text VF';
+    src: url(@/assets/fonts/GolosText-Regular.ttf) format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Golos Text VF';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    src: url(@/assets/fonts/GolosText-Medium.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Golos Text VF';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    src: url(@/assets/fonts/GolosText-Regular.ttf) format('truetype');
+  }
+ 
