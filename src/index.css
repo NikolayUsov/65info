@@ -1,5 +1,5 @@
 :root {
-  font-family: Golos Text VF, sans-serif;
+  font-family: Golos Text VF;
   font-weight: 400;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -8,9 +8,7 @@
   -webkit-text-size-adjust: 100%;
 }
 
-* {
-  box-sizing: border-box;
-}
+
 
 .p {
   margin: 0;
