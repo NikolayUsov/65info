@@ -1,0 +1,14 @@
+.root {
+    padding: 0 80px;
+    width: 1760px;
+    margin: 0 auto;
+  }
+
+.rootWithBanner {
+  width: 1760px;
+  padding: 0 80px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1464px 256px;
+  gap: 40px;
+}

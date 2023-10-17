@@ -1,0 +1,28 @@
+.root {
+  display: flex;
+}
+
+.filterItem {
+  padding: 8px 20px;
+  border: 1px solid #D3D6D9;
+  
+  color: #25292D;
+
+  &.activeFilterItem {
+    border: 1px solid #0D4FDC;
+    color: #0D4FDC;
+    background-color: #E7EDFC;
+  }
+
+  &:first-of-type {
+    border-radius: 8px 0px 0px 8px;
+  }
+
+  &:last-of-type {
+    border-radius: 0px 8px 8px 0px;
+  }
+}
+
+.filterText {
+  margin: 0;
+}

@@ -1,0 +1,56 @@
+.btnDefault {
+  box-sizing: border-box;
+  display: flex;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  text-align: center;
+  outline: none;
+  border: none;
+  .buttonContent {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .prefixContainer {
+    margin-right: 8px;
+  }
+
+  .postFixContainer {
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  &.primary {
+    background-color: #0d4fdc;
+    color: #fff;
+    font-family: Golos Text VF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  &.outlinePrimary {
+    background-color: transparent;
+    color:  #0d4fdc;
+    text-align: center;
+    font-family: Golos Text VF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+  }
+  &.outline {
+    background-color: transparent;
+    color: var(--text-text-disabled, #969ca2);
+    text-align: center;
+    font-family: Golos Text VF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+  }
+}

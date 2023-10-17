@@ -1,0 +1,15 @@
+.root {
+  display: grid;
+  grid-template-columns: repeat(4, 335px);
+  gap: 20px;
+}
+
+.doubleWrapper {
+    display: grid;
+    grid-template-columns: 163px 163px;
+    gap: 8px;
+    
+    &  input{
+        width: 163px;
+    }
+}

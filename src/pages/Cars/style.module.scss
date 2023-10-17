@@ -1,3 +1,71 @@
-.root {
-    color: red
+.carFilterContainer {
+  padding: 32px;
+  border-radius: 0px 24px 24px 24px;
+  background: #fff;
+  margin-top: -24px;
+  margin-bottom: 32px;
+  box-shadow: 0px 4px 16px 0px rgba(16, 30, 44, 0.02), 0px 16px 32px 0px rgba(16, 30, 44, 0.08);
+}
+
+.filters {
+  margin: 0 0 32px 0;
+}
+
+.kindOfCarContainer {
+  display: flex;
+  margin-bottom: 64px;
+}
+
+.kindOfCarWrap:not(:last-of-type) {
+  margin-right: 16px;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: baseline;
+
+  .totalCarsText {
+    color: #58626b;
+    font-family: Golos Text VF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    margin: 0 0 0 12px;
+  }
+}
+
+.containerTitle {
+  color: #25292d;
+  font-family: Golos Text VF;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px; /* 125% */
+  margin: 0 0 28px 0;
+}
+
+.typeCardsContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+
+.banner {
+  width: 256px;
+  height: 542px;
+
+}
+
+.controls {
+  display:  flex;
+  margin: 32px 0 0;
+
+  .filterControl {
+    margin-left: 241px;
+  }
+
+  .totalControll {
+    margin-left: auto;
+  }
 }
