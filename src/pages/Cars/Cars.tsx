@@ -44,7 +44,7 @@ const Cars = () => {
             <div>
               <CarForm />
               <div className={style.controls}>
-                <Button uiType="outline"  prefix={<CloseIcon />}>Сбросить всё</Button>
+                <Button uiType="outline"  prefixIcon={<CloseIcon />}>Сбросить всё</Button>
                 <Button uiType="outlinePrimary" className={style.filterControl} postFix={<ArrowDown />}>Расширенный фильтр</Button>
                 <Button uiType="primary" className={style.totalControll} >Показать 12 560 объявлений</Button>
               </div>

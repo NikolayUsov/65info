@@ -4,13 +4,13 @@ import cx from "classnames";
 
 interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   uiType: "primary" | "outline" | 'outlinePrimary';
-  prefix?: ReactNode;
+  prefixIcon?: ReactNode;
   postFix?: ReactNode;
 }
 export const Button = ({
   children,
   uiType,
-  prefix,
+  prefixIcon,
   postFix,
   className,
   ...rest
@@ -18,8 +18,8 @@ export const Button = ({
   return (
     <button className={cx(style.btnDefault, className, style[uiType])} {...rest}>
       {
-        <div className={cx({[style.buttonContent]: prefix || postFix})}>
-          {prefix && <div className={style.prefixContainer}>{prefix}</div>}
+        <div className={cx({[style.buttonContent]: prefixIcon || postFix})}>
+          {prefixIcon && <div className={style.prefixIconContainer}>{prefixIcon}</div>}
           <div>{children}</div>
           {postFix && <div className={style.postFixContainer}>{postFix}</div>}
         </div>

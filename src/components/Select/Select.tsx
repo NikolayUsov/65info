@@ -1,12 +1,12 @@
 import Select from "react-select";
-import style from './style.module.scss'
+
 
 const SelectUi = ({ ...props }) => {
   return (
     <Select
       {...props}
       styles={{
-        control: (baseStyles, state) => ({
+        control: (baseStyles,) => ({
           ...baseStyles,
           height: '48px',
           borderRadius:'8px',
